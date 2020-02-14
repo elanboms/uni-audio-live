@@ -1,0 +1,102 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+	{
+	  "path": "pages/manage/manage",
+	  "style": {
+	    "navigationBarTitleText": "课程管理"
+	  }
+	},
+	{
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+	{
+	  "path": "pages/index/class-detail",
+	  "style": {
+	    "navigationBarTitleText": "课程详情"
+	  }
+	},
+	{
+	  "path": "pages/mine/my-class",
+	  "style": {
+	    "navigationBarTitleText": "已购课程"
+	  }
+	},
+	{
+	  "path": "pages/mine/my-setting",
+	  "style": {
+	    "navigationBarTitleText": "个人设置"
+	  }
+	},
+	{
+	  "path": "pages/mine/help",
+	  "style": {
+	    "navigationBarTitleText": "帮助"
+	  }
+	},
+	{
+	  "path": "pages/mine/my-order",
+	  "style": {
+	    "navigationBarTitleText": "我的订单"
+	  }
+	},
+	{
+	  "path": "pages/mine/my-data",
+	  "style": {
+	    "navigationBarTitleText": "数据"
+	  }
+	},
+	{
+	  "path": "pages/mine/about",
+	  "style": {
+	    "navigationBarTitleText": "关于我们"
+	  }
+	},
+	{
+	  "path": "pages/index/class-live",
+	  "style": {
+	    "navigationBarTitleText": "直播"
+	  }
+	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#20B2FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/images/tabbar-10.png",
+        "selectedIconPath": "/static/images/tabbar-11.png"
+      }, 
+	  {
+	    "pagePath": "pages/manage/manage",
+	    "text": "课程管理",
+	    "iconPath": "/static/images/tabbar-20.png",
+	    "selectedIconPath": "/static/images/tabbar-21.png"
+	  },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar-30.png",
+        "selectedIconPath": "/static/images/tabbar-31.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

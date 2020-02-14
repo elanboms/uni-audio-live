@@ -1,0 +1,14 @@
+
+.banner {
+	width: 750rpx;
+	height: 410rpx;
+.swiper-item,
+	image {
+		width: 750rpx;
+		height: 100%;
+		border-radius: 0rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+}
+
